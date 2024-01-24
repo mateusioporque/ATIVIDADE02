@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ html {
+   
+    
+    background-image: url(https://static.wikia.nocookie.net/stevenuniverso/images/f/f2/GaleriaPegarELargar00206.png/revision/latest?cb=20160315000038&path-prefix=pt-br);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+ body {
+    background-color: #fffbec;    
+    width: 100vw;
+    max-width: 650px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 20px 20px 10px #000000aa;
+    padding: 25px;
+    margin-top: 150px;
+    margin-bottom: 50px
+ }
+
+ img {
+    margin-top: -125px;
+    width: 200px;
+    height: 200px;
+    border-radius: 110px;
+    object-fit: cover;
+    border: 10px #ED9FB4 solid;
+   
+}
+
+ h1, h2 {  
+    color: #155d97;
+    font-family: 'Climate Crisis', sans-serif;
+   
+}
+
+ h1 { font-size: 40px;;
+      
+ }
+
+ h2 { font-size: 30px;
+
+ }
+ p {
+    color: #7EC8E3;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+ }
+
+ ol {
+    color: #7EC8E3;
+    text-align: left;
+    font-family: 'Varela Round', sans-serif;
+ }
